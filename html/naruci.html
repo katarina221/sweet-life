@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narucivanje Sweet Life</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="../script/js.js"></script>
+
+</head>
+<body>
+    <div class="navigacija">
+        <ul>
+            <li> <a href="./index.html">Početna</a> </li>
+            <li> <a href="./galerija.html">Galerija</a> </li>
+            <li> <a href="./meni.html">Meni</a></li>
+            <li> <a href="./naruci.html">Naruči</a></li>
+        </ul>
+    </div>
+    <div class="telefon">
+        <div id="dugme-tel" class="meni-tel">MENI</div>
+    </div>
+    <div id="nav-tel" class="telefon-nav">
+        <ol>
+            <li> <a href="./index.html">Početna</a> </li>
+            <li> <a href="./galerija.html">Galerija</a> </li>
+            <li> <a href="./meni.html">Meni</a></li>
+            <li> <a href="./naruci.html">Naruči</a></li>
+        </ol>
+    </div>
+    <h2>Naruci omiljenu tortu!</h2>
+    <form action="">
+        <label for="ime">Ime i prezime:</label><br>
+        <input type="text" id="ime" name="ime"><br>
+        <label for="adresa">Adresa:</label><br>
+        <input type="text" id="adresa" name="adresa">
+        <br><br>
+        <div>
+            <label for="izaberi">Torta:</label>
+            <select name="izaberi" id="izaberi">
+            <option value="Red velvet">Red velvet</option>
+            <option value="Fit cake">Fit cake</option>
+            <option value="Choco bomb">Choco bomb</option>
+            <option value="Crunchy">Crunchy</option>
+        </div>
+
+        </select>
+        <br><br>
+        <div>Dodaci</div>
+        <input type="checkbox" id="cokolada" name="cokolada" value="cokolada">
+        <label for="cokolada">Cokolada</label><br>
+        <input type="checkbox" id="keks" name="keks" value="keks">
+        <label for="keks">Keks</label><br>
+        <input type="checkbox" id="slag" name="slag" value="slag">
+        <label for="slag">Slag</label><br><br>
+
+        <div>Da li zelite da vas dodamo na mailing listu?</div>
+        <input type="radio" id="da" name="radio" value="da">
+        <label for="da">DA</label><br>
+        <input type="radio" id="ne" name="radio" value="ne">
+        <label for="ne">NE</label><br>
+
+        <input id="naruci-dugme" type="submit" value="Naruci">
+
+      </form>
+</body>
+</html>
